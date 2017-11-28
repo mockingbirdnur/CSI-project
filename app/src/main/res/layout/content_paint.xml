@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.aidana.project.PaintActivity"
+    tools:showIn="@layout/activity_paint"
+    android:orientation="vertical">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp">
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_stat"
+            android:id="@+id/button" />
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:src="@drawable/traf"
+            android:id="@+id/traf"
+            android:tag="#ffffff"
+            />
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:src="@drawable/save"
+            android:id="@+id/save" />
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:src="@drawable/delete"
+            android:id="@+id/delete" />
+
+    </LinearLayout>
+
+    <com.example.aidana.project.PaintSecondActivity
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:id="@+id/secondactivity"
+        android:background="#FFFF"/>
+
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp">
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="@dimen/alturacolor"
+            android:id="@+id/colorblack"
+            android:tag="#000000"
+            android:background="#000000"
+            />
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="@dimen/alturacolor"
+            android:id="@+id/colorwhite"
+            android:tag="#3F5D7D"
+            android:background="#3F5D7D"/>
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="@dimen/alturacolor"
+            android:id="@+id/colorblue"
+            android:tag="#0000ff"
+            android:background="#0000ff"/>
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="@dimen/alturacolor"
+            android:id="@+id/colorred"
+            android:tag="#FF0000"
+            android:background="#FF0000"/>
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="@dimen/alturacolor"
+            android:id="@+id/colorgreen"
+            android:tag="#006600"
+            android:background="#006600"/>
+    </LinearLayout>
+
+</LinearLayout>

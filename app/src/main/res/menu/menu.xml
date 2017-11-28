@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.aidana.canvas11.MainActivity">
+    <item
+        android:id="@+id/red"
+        android:title="red"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </item>
+    <menu >
+        <item
+            android:id="@+id/grey"
+            android:title="YELLOW"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </item>
+        <item
+            android:id="@+id/purple"
+            android:title="GREY"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </item>
+        <item
+            android:id="@+id/ace"
+            android:orderInCategory="3"
+            android:title="PURPLE"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </item>
+    </menu>
+    <item
+        android:id="@+id/pink"
+        android:title="green"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </item>
+    <item
+        android:id="@+id/blue"
+
+        android:title="blue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <menu >
+            <item
+                android:id="@+id/yellow"
+                android:title="YELLOW"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </item>
+            <item
+                android:id="@+id/black"
+                android:title="GREY"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </item>
+            <item
+                android:id="@+id/orange"
+
+                android:title="PURPLE"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </item>
+        </menu>
+    </item>
+
+
+</menu>

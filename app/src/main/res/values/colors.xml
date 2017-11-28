@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="Blap">#42f492</color>
+    <color name="Bla">#06843f</color>
+    <color name="back">#67BDCB</color>
+    <color name="back1">#3F5D7D</color>
+    <color name="back2"> #FF4C65</color>
+    <color name="back3">#DE4D4E</color>
+    <color name="back4">#3F5D7D</color>
+</resources>
