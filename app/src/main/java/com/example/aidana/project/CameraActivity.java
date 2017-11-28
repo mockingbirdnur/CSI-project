@@ -63,10 +63,6 @@ Button btn;
 
         idOfTask = Integer.parseInt(getIntent().getStringExtra("id"));
 
-        ContentValues cv = new ContentValues();
-        cv.put("checked", "yes");
-        db.update("contacts", cv, "_id=?", new String[]{idOfTask+""});
-
 
         Cursor c = db.query("contacts", null,"_id=?", new String[]{idOfTask+""}, null, null, null);
         if(c.moveToFirst()){

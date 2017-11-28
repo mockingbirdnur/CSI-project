@@ -9,7 +9,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.aidana.project.ListActivity">
+    tools:context="com.example.aidana.project.list.ListActivity">
     <!--<Button-->
     <!--android:id="@+id/createBtn"-->
     <!--android:layout_width="wrap_content"-->
@@ -17,14 +17,14 @@
     <!--android:text="Create contact"-->
     <!--android:onClick="addContact"/>-->
 
-    <ListView
+    <android.support.v7.widget.RecyclerView
         android:id="@+id/contacts"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/imageView6"
         >
 
-    </ListView>
+    </android.support.v7.widget.RecyclerView>
 
     <ImageView
         android:id="@+id/imageView6"
